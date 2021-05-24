@@ -33,9 +33,9 @@ namespace HairSalon.Controllers
     }
 
     [HttpPost]
-    public ActionResult Create(Category category)
+    public ActionResult Create(Stylist stylist)
     {
-      _db.Categories.Add(category);
+      _db.Stylists.Add(stylist);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
