@@ -7,7 +7,7 @@ namespace HairSalon.Models
     public virtual DbSet<Stylist> Stylist { get; set; }
     public DbSet<Client> Client { get; set; }
 
-    public ToDoListContext(DbContextOptions options) : base(options) { }
+    public HairSalonContext(DbContextOptions options) : base(options) { }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
