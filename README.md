@@ -24,7 +24,7 @@ This MVC web app will allow the user to add Stylists and Clients to a database a
     1. Launch MySQL Workbench and enter into root connection
     1. In the Administration tab, select `Data Import/Restore`
     1. Select `Import From Self-Contained File` and navigate to `/HairSalon.Solution/james_wyn.sql`
-    1. For Default Target Schema select New and enter `cassandra_copp`
+    1. For Default Target Schema select New and enter `james_wyn`
     1. Click `Start Import`
 
 2. Add an `appsettings.json` file to the `HairSalon.Solution/HairSalon` directory and add the following:
